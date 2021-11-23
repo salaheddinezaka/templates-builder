@@ -1,8 +1,8 @@
+import IndexPage from "./components/page";
 
 function App() {
   return (
-    <div> Test
-    </div>
+    <div><IndexPage /></div>
   );
 }
 
