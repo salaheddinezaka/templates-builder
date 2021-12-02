@@ -4,11 +4,11 @@ export const offerContainer = (editor) => {
       defaults: {
         tagName: 'div',
         attributes: {
-          class: 'offer__element'
+          class: 'offer'
         },
         components: [{ type: 'cym-banner' }, { type: 'offer-content' }],
         styles: `
-          .offer__element {
+          .offer {
             margin: 20px 0px 0px 29px;
             position: relative;
           }

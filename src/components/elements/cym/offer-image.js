@@ -10,7 +10,7 @@ export const OfferImageType = (editor) => {
         <div class="offer__header">
           <div class="offer__img">
             <a href="{{href}}" target="_blank">
-              <img src="https://dpe0m9czqa0it.cloudfront.net/77sdaz/ckt3mrbzyava809t12vgrcqao.png" alt="{{name}}">
+              <img src="{{src}}" alt="{{name}}">
             </a>
           </div>
         </div>

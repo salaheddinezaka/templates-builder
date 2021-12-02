@@ -7,6 +7,7 @@ import { offerContainer } from '../components/elements/cym/offer-container'
 import { ContentType } from '../components/elements/cym/offer-content'
 import { OfferFeaturesType } from '../components/elements/cym/offer-features'
 import { OfferCTAType } from '../components/elements/cym/offer-cta'
+import { OffersFeed } from '../components/elements/cym/offers-feed'
 
 export const templateEditor = () => {
   const editor = grapesjs.init({
@@ -19,7 +20,8 @@ export const templateEditor = () => {
       OfferImageType,
       ContentType,
       OfferFeaturesType,
-      OfferCTAType
+      OfferCTAType,
+      OffersFeed
     ],
     pluginsOpts: {
       'gjs-blocks-basic': {
@@ -32,7 +34,7 @@ export const templateEditor = () => {
           id: 'cymLayout',
           label: 'CYM Layout',
           category: 'Layouts',
-          content: { type: 'offer-container' },
+          content: { type: 'offers-feed' },
           activate: true
         }
       ]

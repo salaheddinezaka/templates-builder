@@ -1,3 +1,5 @@
+import Mustach from 'mustache'
+
 export const OfferCTAType = (editor) => {
   editor.DomComponents.addType('offer-cta', {
     model: {
