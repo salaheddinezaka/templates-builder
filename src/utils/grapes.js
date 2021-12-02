@@ -8,6 +8,7 @@ import { ContentType } from '../components/elements/cym/offer-content'
 import { OfferFeaturesType } from '../components/elements/cym/offer-features'
 import { OfferCTAType } from '../components/elements/cym/offer-cta'
 import { OffersFeed } from '../components/elements/cym/offers-feed'
+import { OfferNumberType } from '../components/elements/cym/offer-number'
 
 export const templateEditor = () => {
   const editor = grapesjs.init({
@@ -21,7 +22,8 @@ export const templateEditor = () => {
       ContentType,
       OfferFeaturesType,
       OfferCTAType,
-      OffersFeed
+      OffersFeed,
+      OfferNumberType
     ],
     pluginsOpts: {
       'gjs-blocks-basic': {
